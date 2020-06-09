@@ -69,6 +69,14 @@ void convGolden(
     int relu_on
 )
 {
+
+//	static int maxcount = 0;
+//	//maxcount = o_chan*i_size*i_size;
+//	if(maxcount < o_chan*i_size*i_size)
+//		maxcount = o_chan*i_size*i_size;
+//	std::cout << "result " << maxcount << std::endl;
+
+
     // Runs over output filters
     for(int output = 0; output < o_chan; output++){
         // Runs over output pixel in Y-direction
