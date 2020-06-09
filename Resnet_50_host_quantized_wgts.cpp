@@ -75,6 +75,12 @@ void convGolden(
 //	if(maxcount < o_chan*i_size*i_size)
 //		maxcount = o_chan*i_size*i_size;
 //	std::cout << "result " << maxcount << std::endl;
+//int scheduler_fac_ichan;
+//int scheduler_fac_ochan;
+//if(i_chan%64 != 0)
+//std::cout << "i_chan " << i_chan << std::endl;
+//if(o_chan%8 != 0)
+//std::cout << "o_chan " << o_chan << std::endl;
 
 
     // Runs over output filters
