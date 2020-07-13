@@ -1,3 +1,5 @@
+// Performance degrades by 20%
+
 void stream_out_pool_fused_output_0(
 hls::stream<datatype_inh> &stream_pool_fused_out_0,
 hls::stream<datatype_inh> &stream_convo_out_final_0,
